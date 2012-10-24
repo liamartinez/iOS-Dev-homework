@@ -9,6 +9,7 @@
 #import "Oct25AppDelegate.h"
 #import "View.h"
 
+
 @implementation Oct25AppDelegate
 
 @synthesize window = _window;
@@ -20,8 +21,8 @@
 	view = [[View alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 	
 	self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    //self.window.backgroundColor = [UIColor whiteColor];
+	
+
 	
 	[self.window addSubview: view];
 	

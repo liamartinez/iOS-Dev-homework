@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface View : UIView
+@class Date;
+
+@interface View : UIView {
+	Date *date; 
+}
 
 @end

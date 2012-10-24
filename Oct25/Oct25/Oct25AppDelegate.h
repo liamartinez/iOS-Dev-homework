@@ -10,8 +10,10 @@
 
 @class View;
 
+
 @interface Oct25AppDelegate : UIResponder <UIApplicationDelegate>{
 	View *view; 
+
 	UIWindow *window_; 
 }
 
