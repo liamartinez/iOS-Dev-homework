@@ -61,6 +61,7 @@
 	
 	[yearString drawAtPoint:CGPointMake (xDate, self.bounds.size.height - textSizeD.height*2) withFont:textFont];
 	
+
 	
 }
 
